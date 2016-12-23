@@ -1,1 +1,16 @@
-/*styles for calculator here */
+/*
+ *Author: U'el Small
+ *
+ *
+ *main.css
+ */
+
+.wrapper {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.calculator {
+    width: 400px;
+    border: 2px solid brown;
+}
