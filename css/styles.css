@@ -4,13 +4,21 @@
  *
  *main.css
  */
-
+/*
 .wrapper {
-    margin: 0 auto;
+  
     width: 700px;
 }
+*/
 
 .calculator {
+    margin: 0 auto;
     width: 400px;
     border: 2px solid brown;
+}
+
+#output { 
+    border: 2px solid skyblue;
+    height: 25px;
+    width: 100%;
 }
