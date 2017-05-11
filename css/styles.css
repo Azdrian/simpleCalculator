@@ -4,21 +4,36 @@
  *
  *main.css
  */
-/*
+
+
 .wrapper {
-  
-    width: 700px;
+  margin-top: 60px;
 }
-*/
+
 
 .calculator {
     margin: 0 auto;
-    width: 400px;
+    width: 220px;
+    height: 300px;  
     border: 2px solid brown;
 }
 
 #output { 
-    border: 2px solid skyblue;
+    border: 2px solid blue;
+    height: 30px;
+}
+
+/*
+button {
+    width: 50px;
     height: 25px;
-    width: 100%;
+    margin:3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+*/
+button {
+    width: 40px;
+    height: 30px;
+    margin: 4px;
 }
