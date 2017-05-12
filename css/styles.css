@@ -35,8 +35,9 @@ body {
     
 }
 #output p{
+    text-align: right;
     margin-top: 23px;
-    padding-left: 23px;
+    padding-right: 10px;
     font-size: 24px;
 }
 /*
@@ -56,7 +57,7 @@ button {
     font-style: bold;
 }
 
-#equalSign {
+#equals {
     width:113px;
     background-color:#2196F3;
 }
