@@ -1,45 +1,39 @@
 /* coding here */
 
+// intialise viarables for program
 
-// sets up array for inputs
-$input =[];
+$inputs =[];// sets up array for inputs
+$output= "";// displays the results of an operation performed
+$defaultValue = 0;//default value when calculator is turn on or inputs is cleared
  
 //get element by ID
 function getId(x) {
 	return document.getElementById(x);
 }
 
-//getId("one").addEventListener('click', );
-console.log(getId("one"));
-
-
-
-
-
-
-
-
 
 
 /*
+//perform operations on inputs
+switch ( getId(x) === "equals") {
+  case "add":
+   function add(args);
+  case "multiply":
+  function multiply(args);
+  case "subtract":
+   function subtract();
+  case "divide":
+   function divide();
+}
+*/
+
+
+/*
+
+//getId("one").addEventListener('click', );
+//console.log(getId("one"));
+
 $update;
 
 $output;
-*/
-/*
-switch (expression) {
-  case value1:
-    //Statements executed when the result of expression matches value1
-    [break;]
-  case value2:
-    //Statements executed when the result of expression matches value2
-    [break;]
-  ...
-  case valueN:
-    //Statements executed when the result of expression matches valueN
-    [break;]
-  default:
-    //Statements executed when none of the values match the value of the expression
-    [break;]
-}
 */
