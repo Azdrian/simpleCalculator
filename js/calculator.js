@@ -11,7 +11,7 @@ function getId(x) {
 	return document.getElementById(x);
 }
 
-
+//Add operation
 function add(array){
    var sum= 0;
 
@@ -21,6 +21,7 @@ function add(array){
 
 }
 
+//Multiply operation
 function multiply(array){
    var sum = 0;
 
@@ -30,6 +31,7 @@ function multiply(array){
 
 }
 
+//Subtract operation
 function subtract(array){
    var sum = 0;
 
@@ -40,6 +42,15 @@ function subtract(array){
 }
 
 
+//Subtract operation
+function modulus(array){
+   var sum = 0;
+
+   for (var i=0,len=array.length; i < len ;i++ ){
+     sum %= array[i]
+   }
+
+}
 
 
 
@@ -56,6 +67,8 @@ switch ( getId(x) === "equals") {
    function subtract();
   case "divide":
    function divide();
+  case "modulus":
+   function modulus();
 }
 */
 
