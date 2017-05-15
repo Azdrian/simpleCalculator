@@ -12,6 +12,38 @@ function getId(x) {
 }
 
 
+function add(array){
+   var sum= 0;
+
+   for (var i=0,len=array.length; i < len ;i++ ){
+     sum += array[i]
+   }
+
+}
+
+function multiply(array){
+   var sum = 0;
+
+   for (var i=0,len=array.length; i < len ;i++ ){
+     sum *= array[i]
+   }
+
+}
+
+function subtract(array){
+   var sum = 0;
+
+   for (var i=0,len=array.length; i < len ;i++ ){
+     sum -= array[i]
+   }
+
+}
+
+
+
+
+
+
 
 /*
 //perform operations on inputs
