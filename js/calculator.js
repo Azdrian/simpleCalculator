@@ -5,8 +5,8 @@
  *
  */
 
-  // intialise viarables for program
-  $inputs =[];// sets up array for inputs
+  // intialise viarables for calculator program
+  $inputs=[];// sets up array for inputs
   $output= "";// displays the results of an operation performed
   $defaultValue = 0;//default value when calculator is turn on or inputs is cleared
   
@@ -19,14 +19,39 @@
   //AC button puts on calculator.
   getId("AC").addEventListener("click", function powerOn() {
 
-       if ($inputs === $defaultValue) {
-          $inputs= getId("display").textContent=null;
-       }else{
-          $inputs= getId("display").textContent=$defaultValue;
-       }
-        /* console.log("I'm on!");
-          console.log(typeof $inputs);
+        $inputLen= $inputs.length;//check input length
+       if ($inputLen === $defaultValue ){//1 is on & 0 is off
+         
+          $inputs.push(getId("display").textContent= $defaultValue);
+          console.log("I'm on!");
           console.log($inputs);
-        */ 
+          
+       }else{
+          $inputs.push($inputs=[] );
+          getId("display").textContent=$inputs;
+          console.log("inputArray: " + $inputs + " " + "zeroVar: " +  $defaultValue);
+          console.log("I'm off!");
+          console.log($inputs);
+
+       }
+        
+          //console.log(typeof $inputs);
+          //console.log($inputs);
+      
   });
+
+   //  $inputs.push(getId("display").textContent= $defaultValue);
+
+/*
+  getId("C").addEventListener("click", function clearScreen() {
+
+        if ($inputs != "") {
+            $inputs= getId("display").textContent=;
+        }else{
+            $inputs= getId("display").textContent=$defaultValue;
+        }
+        
+    });
+*/
+
 
