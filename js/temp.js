@@ -13,6 +13,20 @@ function getId(x) {
 
 
 
+   //  $inputs.push(getId("display").textContent= $defaultValue);
+
+/*
+  getId("C").addEventListener("click", function clearScreen() {
+
+        if ($inputs != "") {
+            $inputs= getId("display").textContent=;
+        }else{
+            $inputs= getId("display").textContent=$defaultValue;
+        }
+        
+    });
+*/
+
 
     getId("one").addEventListener('click',function(){
        
