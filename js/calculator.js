@@ -18,16 +18,31 @@
   }
 
   //AC button puts on calculator.
-  getId("AC").addEventListener("click", function powerOn() {
+  getId("AC").addEventListener("click", function powerOn($powerStatus) {
        $inputLen= $inputs.length;//check input length
        if ($inputLen === $defaultValue ){//1 is on & 0 is off
-         
           $inputs.push(getId("display").textContent= $defaultValue);
-          $powerStatus = true;
+         
+          //testing statements
           console.log("I'm on!");
           //console.log($powerStatus);
-                  
-        while ($powerStatus === true){
+
+         $powerStatus = true;
+       }else{
+          $inputs.push($inputs=[] );
+          getId("display").textContent=$inputs;
+          
+          //testing statements
+          console.log("inputArray: " + $inputs + " " + "zeroVar: " +  $defaultValue);
+          console.log("I'm off!");
+          //console.log($powerStatus);
+
+          return $powerStatus = false;
+       }
+  });
+
+          
+ while ($powerStatus === true){
            getId("one").addEventListener('click',function(){
               console.log("heyyy im 1");
             /*
@@ -39,27 +54,9 @@
              } 
              */
           });
-       }//end of while loop
+  }//end of while loop
 
 
-
-
-
-
-
-
-
-       }else{
-          $inputs.push($inputs=[] );
-          getId("display").textContent=$inputs;
-          $powerStatus = false;
-          console.log("inputArray: " + $inputs + " " + "zeroVar: " +  $defaultValue);
-          console.log("I'm off!");
-          //console.log($powerStatus);
-
-
-       }
-  });
   /*
 
   //Clear the screen
