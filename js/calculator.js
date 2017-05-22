@@ -18,52 +18,34 @@
   }
 
   //AC button puts on calculator.
-  getId("AC").addEventListener("click", function powerOn($powerStatus) {
-       $inputLen= $inputs.length;//check input length
-       if ($inputLen === $defaultValue ){//1 is on & 0 is off
-          $inputs.push(getId("display").textContent= $defaultValue);
-         
-          //testing statements
-          console.log("I'm on!");
-          //console.log($powerStatus);
+  getId("AC").addEventListener("click", function powerOn() {
+      //when AC BUTTON is clicked checks the  length of inputs[] array
+      $inputs.push($defaultValue);
+      var $inputLen= $inputs.length;
+      
+      if ($inputLen === 1){
+        getId("display").textContent=$defaultValue;
+        $powerStatus =true;
+         console.log($powerStatus);
+      }else{
+        $inputs.push($inputs=[] );
+        getId("display").textContent="";
+        $powerStatus =false;
+        console.log($powerStatus);
+        
+      }
+      //if (input length is 0)
+        // display nothing
+        // set powerstatus to false
+      //else  
+      //display 0 on screen
+      //add 0 to the input array
+      //set powerStatus to true
 
-         $powerStatus = true;
-       }else{
-          $inputs.push($inputs=[] );
-          getId("display").textContent=$inputs;
-          
-          //testing statements
-          console.log("inputArray: " + $inputs + " " + "zeroVar: " +  $defaultValue);
-          console.log("I'm off!");
-          //console.log($powerStatus);
 
-          return $powerStatus = false;
-       }
+
+
+
   });
 
-          
- while ($powerStatus === true){
-           getId("one").addEventListener('click',function(){
-              console.log("heyyy im 1");
-            /*
-             $inputs.push(1);
-             //console.log($inputs);
-             for(i=0, len=$inputs.length; i < len; i++){
-                    // getId("display").textContent= $inputs[i];
-                    console.log($inputs[i]);
-             } 
-             */
-          });
-  }//end of while loop
-
-
-  /*
-
-  //Clear the screen
-  getId("clear").addEventListener("click", function clearScreen(){
-    console.log($inputs);
-   /* var $emptyInput= $inputs.push($inputs=[] );
-   console.log($emptyInput);
-   
-  });
-*/
+  
