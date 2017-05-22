@@ -34,18 +34,19 @@
         console.log($powerStatus);
         
       }
-      //if (input length is 0)
-        // display nothing
-        // set powerstatus to false
-      //else  
-      //display 0 on screen
-      //add 0 to the input array
-      //set powerStatus to true
-
-
-
-
 
   });
 
-  
+
+  getId("one").addEventListener('click',function(){
+              console.log("heyyy im 1");
+            
+    });
+
+  getId("two").addEventListener("click", function(){
+console.log("dddd");
+
+  });
+
+  alert("ey");
+  console.log("hey");
