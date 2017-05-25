@@ -335,3 +335,6 @@ console.log("powerstatus value:" + $powerStatus);
 
 
       */
+
+
+      http://www.w3resource.com/javascript-exercises/javascript-array-exercise-3.php
