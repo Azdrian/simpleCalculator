@@ -172,15 +172,3 @@
      
      
   });
-
-
-
-/*  getId("one").addEventListener('click',function(){
-                    console.log("heyyy im 1");
-                  
-          });
-      }
-      
-      
-       
-      */
