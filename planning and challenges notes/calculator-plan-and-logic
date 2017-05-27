@@ -1,0 +1,26 @@
+-ABOUT PROJECT AND CREATOR-
+******************************************
+Creator: Uel Azdrian Small
+Project name: SIMPLE CALCULATOR
+Role: UX designer/front end developer
+Date: 15/05/2017
+languages use: HTML5-CSS3-VANILLA JAVASCRIPT
+******************************************
+
+
+
+
+-FUNCTIONALITY-
+******************************************
+1) AC BUTTON TO POWER ON CALCULATOR
+
+2) PRESS C BUTTON TO CLEAR THE SCREEN INPUTS
+
+3) ALLOW INPUTS OF NUMBERS AND OPERATORS AND DISPLAY OUTPUT ON CALCULATOR SCREEN
+INPUTS: (Numbers : 0 -9 ) -- (OPERATORS: *MULTIPLY, +ADD, -SUBTRACT , %MODULUS, /DIVIDE) 
+
+4) CALCULATE THE SUM OF INPUTS WHEN "=EQUAL SIGN" BUTTON IS PRESSED
+
+
+-CONSTRAINTS-
+******************************************
